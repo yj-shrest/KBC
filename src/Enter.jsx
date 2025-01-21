@@ -32,7 +32,7 @@ const Enter = () => {
         }
         console.log(questionData);
         setData(questionData);
-        navigate('/home',{ state: { data:questionData } });
+        navigate('/KBC/home',{ state: { data:questionData } });
     }
   return (
     <div className='bg-black text-white min-h-screen'>

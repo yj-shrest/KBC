@@ -358,7 +358,7 @@ const Question = () => {
     };
 
     const start = () => {
-        navigate('/home', { state: { data: categories } });
+        navigate('/KBC/home', { state: { data: categories } });
     }
     const load =()=>
     {
