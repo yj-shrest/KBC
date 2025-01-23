@@ -3,58 +3,6 @@ import { useState,useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const Home = () => {
-    // const data = [
-    //     {
-    //         question: 'Triton is the largest Satellite of which planet?',
-    //         options: ['A. Saturn', 'B. Jupiter', 'C. Mercury', 'D. Venus'],
-    //         answer: 'A. Saturn'
-    //     },
-    //     {
-    //         question: 'What is the smallest planet in our solar system?',
-    //         options: ['A. Earth', 'B. Mars', 'C. Mercury', 'D. Venus'],
-    //         answer: 'C. Mercury'
-    //     },
-    //     {
-    //         question: 'What is the largest planet in our solar system?',
-    //         options: ['A. Jupiter', 'B. Saturn', 'C. Earth', 'D. Venus'],
-    //         answer: 'A. Jupiter'
-    //     },
-    //     {
-    //         question: 'What is the hottest planet in our solar system?',
-    //         options: ['A. Venus', 'B. Earth', 'C. Mars', 'D. Mercury'],
-    //         answer: 'A. Venus'
-    //     },
-    //     {
-    //         question: 'What is the coldest planet in our solar system?',
-    //         options: ['A. Earth', 'B. Venus', 'C. Mars', 'D. Uranus'],
-    //         answer: 'D. Uranus'
-    //     },
-    //     {
-    //         question: 'What is the brightest planet in the night sky?',
-    //         options: ['A. Venus', 'B. Mars', 'C. Jupiter', 'D. Saturn'],
-    //         answer: 'A. Venus'
-    //     },
-    //     {
-    //         question: 'What is the largest moon in our solar system?',
-    //         options: ['A. Ganymede', 'B. Titan', 'C. Callisto', 'D. Io'],
-    //         answer: 'A. Ganymede'
-    //     },
-    //     {
-    //         question: 'What is the fastest planet in our solar system?',
-    //         options: ['A. Earth', 'B. Mars', 'C. Mercury', 'D. Jupiter'],
-    //         answer: 'C. Mercury'
-    //     },
-    //     {
-    //         question: 'What is the second smallest planet in our solar system?',
-    //         options: ['A. Earth', 'B. Mars', 'C. Venus', 'D. Mercury'],
-    //         answer: 'B. Mars'
-    //     },
-    //     {
-    //         question: 'What is the second largest planet in our solar system?',
-    //         options: ['A. Jupiter', 'B. Saturn', 'C. Earth', 'D. Venus'],
-    //         answer: 'B. Saturn'
-    //     },
-    // ]
     const location = useLocation();
     const [data, setData] = useState([]);
   // Access the passed state (if any)
